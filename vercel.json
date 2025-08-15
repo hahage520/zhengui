@@ -1,0 +1,6 @@
+{
+  "regions": ["hkg1"],  // 指定香港节点
+  "routes": [
+    { "src": "/.*", "dest": "/index.html" }  // SPA路由支持
+  ]
+}
